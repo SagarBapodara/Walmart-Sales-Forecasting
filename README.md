@@ -9,7 +9,7 @@ The goal of this project is to develop a model that can forecast store sales bas
 Link to my Kaggle Notebook here [🔗](https://www.kaggle.com/code/sagarbapodara/walmart-sales-eda-modelling-forecasting)
 
 ## Dataset
-The data has been taken from [Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast/data). 
+The data has been taken from [Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast/data). All the data files including the merged data are placed in [data](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/tree/main/data) folder. 
 
 Dates in the dataset range from 2010-02-05	to 2013-05-17, which is ~ 3 years. 
 
@@ -21,3 +21,51 @@ It contains 4 files:
   4. stores.csv: Contains anonymized information about the 45 stores, indicating the type and size of the store.
 </pre>
 
+## EDA: 
+
+1. Average Weekly Sales by Stores
+
+![avg-weekly-sales-stores](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
+
+## Results: 
+
+| Model               | MSE          | R² Score  |
+|---------------------|--------------|-----------|
+| Ridge Regression     | 4.559058e+08 | 0.115813  |
+| Lasso Regression     | 4.561385e+08 | 0.115362  |
+| Random Forest (n = 50)       | 1.306101e+07 | 0.974669  |
+| Random Forest (n = 50, md=100)       | 1.306101e+07 | 0.974669  |
+| Random Forest (n = 100)     | 1.274589e+07 | 0.975281  |
+| Random Forest (n = 100, md=100)       | 1.274589e+07 | 0.975281  |
+| Gradient Boosting (n = 50)    | 1.793905e+08 | 0.652089  |
+| Gradient Boosting (n = 100)    | 1.321454e+08 | 0.743716  |
+| Gradient Boosting (n = 200)   | 1.017133e+08 | 0.802736  |
+| XGB Regressor (n = 50)       | 4.020566e+07 | 0.922025  |
+| XGB Regressor (n = 100)       | 4.020566e+07 | 0.922025  |
+| XGB Regressor (n = 200)       | 2.124197e+07 | 0.958803  |
+
+## Model Output v/s Test data: 
+
+1. Random Forest Regressor
+
+![forecast-rfr](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
+
+## 🚀 Thanks
+
+Thanks for looking into the project and being here. Feel free to share your reviews/suggestions/remarks! :)
+
+**If you found it useful, leave a ⭐ here!**
+
+## Requirements
+
+Required dependencies are placed here: [requirements.txt](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/requirements.txt). Install them using the following command: 
+<pre>
+  pip install -r /path/to/requirements.txt
+</pre>
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Ending Credits 
+- @Author : [Sagar Bapodara](https://www.linkedin.com/in/sagar-bapodara/)
