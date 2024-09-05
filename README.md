@@ -21,9 +21,20 @@ It contains 4 files:
   4. stores.csv: Contains anonymized information about the 45 stores, indicating the type and size of the store.
 </pre>
 
+## Requirements
+
+Required dependencies are placed here: [requirements.txt](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/requirements.txt). Install them using the following command: 
+<pre>
+  pip install -r /path/to/requirements.txt
+</pre>
+
 ## EDA: 
 
 1. Average Weekly Sales by Stores
+
+![avg-weekly-sales-stores](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
+
+2. Average Weekly Sales by Stores
 
 ![avg-weekly-sales-stores](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
 
@@ -44,24 +55,43 @@ It contains 4 files:
 | XGB Regressor (n = 100)       | 4.020566e+07 | 0.922025  |
 | XGB Regressor (n = 200)       | 2.124197e+07 | 0.958803  |
 
-## Model Output v/s Test data: 
+## Combined Results (MSE, R^2)
+
+![mse-r2-model-results](graphics/model-results.png)
+
+## Actual Model Output v/s Test data: 
 
 1. Random Forest Regressor
 
-![forecast-rfr](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
+![forecast-rfr](graphics/forecast-rfr.png)
+
+2. Gradient Boosting
+
+![forecast-gb](graphics/forecast-gb.png)
+
+3. XGB Regressor
+
+![forecast-xgb](graphics/forecast-xgb.png)
+
+## Forecasting: 
+
+![forecast-sarima](graphics/forecast-sarima.png)
+
+![forecast-sarima-1](graphics/forecast-sarima_1.png)
+
+SARIMA metrics: 
+<pre>
+  Mean Absolute Error (MAE): 1597388.9843533235
+  Root Mean Squared Error (RMSE): 2128341.295087557
+  Mean Absolute Percentage Error (MAPE): 10.139488649093506%
+  Accuracy: 89.86051135090649%
+</pre>
 
 ## 🚀 Thanks
 
 Thanks for looking into the project and being here. Feel free to share your reviews/suggestions/remarks! :)
 
 **If you found it useful, leave a ⭐ here!**
-
-## Requirements
-
-Required dependencies are placed here: [requirements.txt](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/requirements.txt). Install them using the following command: 
-<pre>
-  pip install -r /path/to/requirements.txt
-</pre>
 
 ## License
 
