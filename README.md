@@ -57,7 +57,7 @@ Bottom 5 Departments:
 1. 43: Toys
 2. 39: Misc/Jewellery
 3. 78: Ladieswear (Part of Fashion)
-4. 47: Something in Fashion
+4. 47: Part of Fashion
 5. 51: Sporting Goods
 
 </pre>
