@@ -6,7 +6,11 @@ Sales forecasting is a crucial tool for retail organizations to develop strategi
 ## Aim
 The goal of this project is to develop a model that can forecast store sales based on past sales patterns. With this model, decision-makers can make critical business decisions, maximize revenue, and improve sales in underperforming departments.
 
+## 
+
 Link to my Kaggle Notebook here [🔗](https://www.kaggle.com/code/sagarbapodara/walmart-sales-eda-modelling-forecasting)
+
+Link to Medium Article with explanations here [🔗](https://medium.com/@sagarbapodara/the-future-of-walmart-sales-in-depth-analysis-and-forecasting-806241dc3300)
 
 ## Dataset
 The data has been taken from [Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast/data). All the data files including the merged data are placed in [data](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/tree/main/data) folder. 
@@ -32,11 +36,35 @@ Required dependencies are placed here: [requirements.txt](https://github.com/Sag
 
 1. Average Weekly Sales by Stores
 
-![avg-weekly-sales-stores](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
+![avg-weekly-sales-stores](graphics/avg_weekly_sales_by_stores.png)
 
-2. Average Weekly Sales by Stores
+2. Top 5 departments in top 5 stores by weekly sales
 
-![avg-weekly-sales-stores](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/blob/main/graphics/avg_weekly_sales_by_stores.png)
+![top-5-dept-top-5-stores](graphics/top_5_dept_top_5_stores.png)
+
+3. Bottom 5 departments in top 5 stores by weekly sales
+
+![btm-5-dept-top-5-stores](graphics/btm_5_dept_top_5_stores.png)
+
+## Inference
+<pre>
+Note: Some department numbers are missing
+  
+Top 5 Departments by weekly sales:
+1. 92: Dry Grocery
+2. 95: Grocery, Snacks, and Beverages
+3. 90: Dairy
+4. 38: Prescription Pharmacy
+5. 72: Electronics
+
+Bottom 5 Departments:
+1. 43: Toys
+2. 39: Misc/Jewellery
+3. 78: Ladieswear (Part of Fashion)
+4. 47: Part of Fashion
+5. 51: Sporting Goods
+
+</pre>
 
 ## Results: 
 
