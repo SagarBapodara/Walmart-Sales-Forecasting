@@ -6,7 +6,11 @@ Sales forecasting is a crucial tool for retail organizations to develop strategi
 ## Aim
 The goal of this project is to develop a model that can forecast store sales based on past sales patterns. With this model, decision-makers can make critical business decisions, maximize revenue, and improve sales in underperforming departments.
 
+## 
+
 Link to my Kaggle Notebook here [🔗](https://www.kaggle.com/code/sagarbapodara/walmart-sales-eda-modelling-forecasting)
+
+Link to Medium Article with explanations here [🔗](https://medium.com/@sagarbapodara/the-future-of-walmart-sales-in-depth-analysis-and-forecasting-806241dc3300)
 
 ## Dataset
 The data has been taken from [Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast/data). All the data files including the merged data are placed in [data](https://github.com/SagarBapodara/Walmart-Sales-Forecasting/tree/main/data) folder. 
